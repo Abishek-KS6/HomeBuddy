@@ -30,9 +30,9 @@ const AdminDashboard = () => {
     
     try {
       const [statsRes, bookingsRes, providersRes] = await Promise.all([
-        axios.get('http://localhost:5000/api/admin/stats', config),
-        axios.get('http://localhost:5000/api/admin/bookings', config),
-        axios.get('http://localhost:5000/api/admin/providers', config)
+        axios.get('https://homebuddy-7ybp.onrender.com/api/admin/stats', config),
+        axios.get('https://homebuddy-7ybp.onrender.com/api/admin/bookings', config),
+        axios.get('https://homebuddy-7ybp.onrender.com/api/admin/providers', config)
       ]);
       
       setStats(statsRes.data);
@@ -54,7 +54,7 @@ const AdminDashboard = () => {
     const token = localStorage.getItem('token');
     try {
       await axios.put(
-        `http://localhost:5000/api/admin/bookings/${bookingId}/status`,
+        `https://homebuddy-7ybp.onrender.com/api/admin/bookings/${bookingId}/status`,
         { status },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -69,7 +69,7 @@ const AdminDashboard = () => {
     const token = localStorage.getItem('token');
     try {
       await axios.put(
-        `http://localhost:5000/api/admin/providers/${providerId}/status`,
+        `https://homebuddy-7ybp.onrender.com/api/admin/providers/${providerId}/status`,
         { isApproved },
         { headers: { Authorization: `Bearer ${token}` } }
       );

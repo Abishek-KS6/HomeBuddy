@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Plumbing",
+    "description": "Professional plumbing services for repairs, installations, and maintenance",
+    "basePrice": 500,
+    "category": "Home Maintenance",
+    "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Electrical Work",
+    "description": "Licensed electricians for wiring, repairs, and electrical installations",
+    "basePrice": 600,
+    "category": "Home Maintenance",
+    "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "House Cleaning",
+    "description": "Professional house cleaning and deep cleaning services",
+    "basePrice": 800,
+    "category": "Cleaning",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Appliance Repair",
+    "description": "Repair services for home appliances like washing machines, refrigerators",
+    "basePrice": 700,
+    "category": "Repair",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Painting",
+    "description": "Interior and exterior painting services for homes and offices",
+    "basePrice": 1200,
+    "category": "Home Improvement",
+    "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Carpentry",
+    "description": "Custom carpentry work, furniture repair, and woodwork services",
+    "basePrice": 900,
+    "category": "Home Improvement",
+    "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "AC Service",
+    "description": "Air conditioning installation, repair, and maintenance services",
+    "basePrice": 800,
+    "category": "HVAC",
+    "image": "https://images.unsplash.com/photo-1631545806609-c2f4e4e6e0e1?w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Pest Control",
+    "description": "Professional pest control and termite treatment services",
+    "basePrice": 600,
+    "category": "Home Maintenance",
+    "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=300&fit=crop"
+  }
+]

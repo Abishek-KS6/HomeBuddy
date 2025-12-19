@@ -10,7 +10,7 @@ const AdminLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post('https://homebuddy-7ybp.onrender.com/api/auth/login', formData);
       const { token, user } = response.data;
       
       if (user.role !== 'admin') {

@@ -1,0 +1,52 @@
+[
+  {
+    "userId": "USER_ID_1",
+    "services": ["SERVICE_ID_PLUMBING", "SERVICE_ID_ELECTRICAL"],
+    "experience": 5,
+    "location": "Mumbai, Maharashtra",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "rating": 4.5,
+    "completedJobs": 45,
+    "description": "Experienced plumber and electrician with 5+ years in residential services"
+  },
+  {
+    "userId": "USER_ID_2", 
+    "services": ["SERVICE_ID_CLEANING"],
+    "experience": 3,
+    "location": "Delhi, NCR",
+    "availability": ["Monday", "Wednesday", "Friday", "Saturday"],
+    "rating": 4.8,
+    "completedJobs": 32,
+    "description": "Professional house cleaning specialist with eco-friendly products"
+  },
+  {
+    "userId": "USER_ID_3",
+    "services": ["SERVICE_ID_APPLIANCE", "SERVICE_ID_AC"],
+    "experience": 7,
+    "location": "Bangalore, Karnataka", 
+    "availability": ["Tuesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "rating": 4.6,
+    "completedJobs": 68,
+    "description": "Certified technician for all home appliances and AC systems"
+  },
+  {
+    "userId": "USER_ID_4",
+    "services": ["SERVICE_ID_PAINTING", "SERVICE_ID_CARPENTRY"],
+    "experience": 4,
+    "location": "Chennai, Tamil Nadu",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "rating": 4.3,
+    "completedJobs": 28,
+    "description": "Creative painter and skilled carpenter for home improvement projects"
+  },
+  {
+    "userId": "USER_ID_5",
+    "services": ["SERVICE_ID_PEST"],
+    "experience": 6,
+    "location": "Hyderabad, Telangana",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "rating": 4.7,
+    "completedJobs": 52,
+    "description": "Licensed pest control expert with safe and effective treatments"
+  }
+]
