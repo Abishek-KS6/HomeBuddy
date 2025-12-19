@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://homebuddy-7ybp.onrender.com'
+  baseURL: 'https://homebuddy-7ybp.onrender.com/api'
 });
 
 API.interceptors.request.use((req) => {
